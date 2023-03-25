@@ -3,6 +3,7 @@ public class Main {
         System.out.println("Hello world!");
         printMessage();
         greetings();
+        printParameterValue("This is parameter value");
     }
 
     public static void printMessage(){
@@ -11,5 +12,9 @@ public class Main {
 
     private static void greetings(){
         System.out.println("Greetings All");
+    }
+
+    private static void printParameterValue(String value){
+        System.out.println(value);
     }
 }
